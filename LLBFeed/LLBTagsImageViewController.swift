@@ -9,9 +9,15 @@
 import UIKit
 
 class LLBTagsImageViewController: UIViewController {
-
+    
+    var feedGroup = [LLBPhotoFeed]?()
     override func viewDidLoad() {
         super.viewDidLoad()
+        LLBDataFetcher.dataFetcher.fetchPicsForTag("ifoundawesome", success: { [weak self] (group: [LLBPhotoFeed]!) in
+            self?.feedGroup = group
+        }) { (error: NSError!) in
+                print(error.debugDescription)
+        }
     }
 
     override func didReceiveMemoryWarning() {

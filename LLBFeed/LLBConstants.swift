@@ -13,7 +13,8 @@ let kClientID        = "cd4950693b0d4d3a8e8fcf4a857c6dce"
 let kRedirectURL     = "https://lbb.in/delhi/";
 let kLoginState      = "kLoginState"
 let kAccessToken     = "kAccessToken"
-let kAuthURL         = "https://api.instagram.com/oauth/authorize/?client_id=\(kClientID)&redirect_uri=\(kRedirectURL)&response_type=token&scope=likes+comments+basic"
+let kAuthURL         = "https://api.instagram.com/oauth/authorize/?client_id=\(kClientID)&redirect_uri=\(kRedirectURL)&response_type=token&scope=likes+comments+basic+public_content"
+let kError           = "kError"
 
 let UserDidLoginViaInstaGramNotificaiton = "UserDidLoginViaInstaGramNotificaiton"
 

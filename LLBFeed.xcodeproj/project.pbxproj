@@ -20,6 +20,15 @@
 		9B03C2E91CF991AF00BAA06A /* LLBGenericExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B03C2E81CF991AF00BAA06A /* LLBGenericExtensions.swift */; };
 		9B03C2EB1CF9956F00BAA06A /* LLBLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B03C2EA1CF9956F00BAA06A /* LLBLoginController.swift */; };
 		9BC63A181CF9C54E0078A996 /* LLBStorageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A171CF9C54E0078A996 /* LLBStorageExtension.swift */; };
+		9BC63A1A1CF9C8270078A996 /* LLBDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A191CF9C8270078A996 /* LLBDataFetcher.swift */; };
+		9BF847C11CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C01CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift */; };
+		9BF847C31CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C21CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift */; };
+		9BF847C51CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C41CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift */; };
+		9BF847C71CF9D7D9003BF0C3 /* LLBPhotoFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C61CF9D7D9003BF0C3 /* LLBPhotoFeedImage.swift */; };
+		9BF847C91CF9D881003BF0C3 /* LLBPhotoFeedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C81CF9D881003BF0C3 /* LLBPhotoFeedUser.swift */; };
+		9BF847CB1CF9D964003BF0C3 /* LLBPhotoFeedLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847CA1CF9D964003BF0C3 /* LLBPhotoFeedLike.swift */; };
+		9BF847CD1CF9D9C3003BF0C3 /* LLBPhotoFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847CC1CF9D9C3003BF0C3 /* LLBPhotoFeed.swift */; };
+		9BF847CF1CF9E0A8003BF0C3 /* LLBPhotoFeedGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847CE1CF9E0A8003BF0C3 /* LLBPhotoFeedGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		9B03C2E81CF991AF00BAA06A /* LLBGenericExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBGenericExtensions.swift; sourceTree = "<group>"; };
 		9B03C2EA1CF9956F00BAA06A /* LLBLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBLoginController.swift; sourceTree = "<group>"; };
 		9BC63A171CF9C54E0078A996 /* LLBStorageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBStorageExtension.swift; sourceTree = "<group>"; };
+		9BC63A191CF9C8270078A996 /* LLBDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBDataFetcher.swift; sourceTree = "<group>"; };
+		9BF847C01CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedCaptionFrom.swift; sourceTree = "<group>"; };
+		9BF847C21CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedCaption.swift; sourceTree = "<group>"; };
+		9BF847C41CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedImageResolution.swift; sourceTree = "<group>"; };
+		9BF847C61CF9D7D9003BF0C3 /* LLBPhotoFeedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedImage.swift; sourceTree = "<group>"; };
+		9BF847C81CF9D881003BF0C3 /* LLBPhotoFeedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedUser.swift; sourceTree = "<group>"; };
+		9BF847CA1CF9D964003BF0C3 /* LLBPhotoFeedLike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedLike.swift; sourceTree = "<group>"; };
+		9BF847CC1CF9D9C3003BF0C3 /* LLBPhotoFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeed.swift; sourceTree = "<group>"; };
+		9BF847CE1CF9E0A8003BF0C3 /* LLBPhotoFeedGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +184,14 @@
 		9B03C2DB1CF9883D00BAA06A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				9B03C2DF1CF9887D00BAA06A /* LLBConstants.swift */,
+				9BF847C01CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift */,
+				9BF847C21CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift */,
+				9BF847C41CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift */,
+				9BF847C61CF9D7D9003BF0C3 /* LLBPhotoFeedImage.swift */,
+				9BF847C81CF9D881003BF0C3 /* LLBPhotoFeedUser.swift */,
+				9BF847CA1CF9D964003BF0C3 /* LLBPhotoFeedLike.swift */,
+				9BF847CC1CF9D9C3003BF0C3 /* LLBPhotoFeed.swift */,
+				9BF847CE1CF9E0A8003BF0C3 /* LLBPhotoFeedGroup.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -175,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				9B03C2E31CF98DF400BAA06A /* LLBWindowManager.swift */,
+				9BC63A191CF9C8270078A996 /* LLBDataFetcher.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -200,6 +226,7 @@
 			children = (
 				9B03C2E81CF991AF00BAA06A /* LLBGenericExtensions.swift */,
 				9BC63A171CF9C54E0078A996 /* LLBStorageExtension.swift */,
+				9B03C2DF1CF9887D00BAA06A /* LLBConstants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -386,12 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF847CD1CF9D9C3003BF0C3 /* LLBPhotoFeed.swift in Sources */,
+				9BF847CB1CF9D964003BF0C3 /* LLBPhotoFeedLike.swift in Sources */,
 				9BC63A181CF9C54E0078A996 /* LLBStorageExtension.swift in Sources */,
+				9BF847C71CF9D7D9003BF0C3 /* LLBPhotoFeedImage.swift in Sources */,
 				9B03C2EB1CF9956F00BAA06A /* LLBLoginController.swift in Sources */,
+				9BF847C91CF9D881003BF0C3 /* LLBPhotoFeedUser.swift in Sources */,
 				9B03C2E21CF98DD000BAA06A /* LLBTagsImageViewController.swift in Sources */,
+				9BF847CF1CF9E0A8003BF0C3 /* LLBPhotoFeedGroup.swift in Sources */,
 				9B03C2E41CF98DF400BAA06A /* LLBWindowManager.swift in Sources */,
+				9BC63A1A1CF9C8270078A996 /* LLBDataFetcher.swift in Sources */,
 				9B03C2E91CF991AF00BAA06A /* LLBGenericExtensions.swift in Sources */,
 				9B03C2E01CF9887D00BAA06A /* LLBConstants.swift in Sources */,
+				9BF847C11CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift in Sources */,
+				9BF847C31CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift in Sources */,
+				9BF847C51CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift in Sources */,
 				9B03C2AE1CF97A6700BAA06A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
