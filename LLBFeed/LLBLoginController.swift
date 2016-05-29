@@ -16,7 +16,6 @@ class LLBLoginController: UIViewController, UIWebViewDelegate {
         super.viewDidLoad()
         webView.delegate = self
         webView.alpha = 0;
-        
     }
 
     @IBAction func didTapLoginButton(sender: AnyObject) {

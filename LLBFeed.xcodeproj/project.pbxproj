@@ -19,6 +19,8 @@
 		9B03C2E41CF98DF400BAA06A /* LLBWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B03C2E31CF98DF400BAA06A /* LLBWindowManager.swift */; };
 		9B03C2E91CF991AF00BAA06A /* LLBGenericExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B03C2E81CF991AF00BAA06A /* LLBGenericExtensions.swift */; };
 		9B03C2EB1CF9956F00BAA06A /* LLBLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B03C2EA1CF9956F00BAA06A /* LLBLoginController.swift */; };
+		9BBE7FF71CF9EC970062C339 /* LLBPhotoFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE7FF61CF9EC970062C339 /* LLBPhotoFeedView.swift */; };
+		9BBE7FF91CF9ECA60062C339 /* LLBPhotoFeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE7FF81CF9ECA60062C339 /* LLBPhotoFeedView.xib */; };
 		9BC63A181CF9C54E0078A996 /* LLBStorageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A171CF9C54E0078A996 /* LLBStorageExtension.swift */; };
 		9BC63A1A1CF9C8270078A996 /* LLBDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A191CF9C8270078A996 /* LLBDataFetcher.swift */; };
 		9BF847C11CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF847C01CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift */; };
@@ -69,6 +71,8 @@
 		9B03C2E31CF98DF400BAA06A /* LLBWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBWindowManager.swift; sourceTree = "<group>"; };
 		9B03C2E81CF991AF00BAA06A /* LLBGenericExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBGenericExtensions.swift; sourceTree = "<group>"; };
 		9B03C2EA1CF9956F00BAA06A /* LLBLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBLoginController.swift; sourceTree = "<group>"; };
+		9BBE7FF61CF9EC970062C339 /* LLBPhotoFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedView.swift; sourceTree = "<group>"; };
+		9BBE7FF81CF9ECA60062C339 /* LLBPhotoFeedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLBPhotoFeedView.xib; sourceTree = "<group>"; };
 		9BC63A171CF9C54E0078A996 /* LLBStorageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBStorageExtension.swift; sourceTree = "<group>"; };
 		9BC63A191CF9C8270078A996 /* LLBDataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBDataFetcher.swift; sourceTree = "<group>"; };
 		9BF847C01CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBPhotoFeedCaptionFrom.swift; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 		9B03C2DE1CF9885B00BAA06A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BBE7FF61CF9EC970062C339 /* LLBPhotoFeedView.swift */,
+				9BBE7FF81CF9ECA60062C339 /* LLBPhotoFeedView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -338,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBE7FF91CF9ECA60062C339 /* LLBPhotoFeedView.xib in Resources */,
 				9B03C2B81CF97A6700BAA06A /* LaunchScreen.storyboard in Resources */,
 				9B03C2B51CF97A6700BAA06A /* Assets.xcassets in Resources */,
 				9B03C2B31CF97A6700BAA06A /* Main.storyboard in Resources */,
@@ -427,6 +434,7 @@
 				9B03C2E01CF9887D00BAA06A /* LLBConstants.swift in Sources */,
 				9BF847C11CF9D5DF003BF0C3 /* LLBPhotoFeedCaptionFrom.swift in Sources */,
 				9BF847C31CF9D680003BF0C3 /* LLBPhotoFeedCaption.swift in Sources */,
+				9BBE7FF71CF9EC970062C339 /* LLBPhotoFeedView.swift in Sources */,
 				9BF847C51CF9D755003BF0C3 /* LLBPhotoFeedImageResolution.swift in Sources */,
 				9B03C2AE1CF97A6700BAA06A /* AppDelegate.swift in Sources */,
 			);
