@@ -26,7 +26,7 @@ class LLBTagsImageViewController: UIViewController {
         super.viewDidLoad()
         noPhotoLabel.alpha = 0
         reloadButton.alpha = 0
-        screenSizeHalfHeight = UIScreen.mainScreen().bounds.size.height / 2
+        screenSizeHalfHeight = UIScreen.mainScreen().bounds.size.height / 8
         fetchPhotoFeeds()
     }
     
